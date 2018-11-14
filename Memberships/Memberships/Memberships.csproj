@@ -200,8 +200,15 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\ItemType.cs" />
+    <Compile Include="Entities\SubscriptionProduct.cs" />
+    <Compile Include="Entities\ProductItem.cs" />
+    <Compile Include="Entities\Subscription.cs" />
+    <Compile Include="Entities\ProductLinkText.cs" />
+    <Compile Include="Entities\ProductType.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Part.cs" />
     <Compile Include="Entities\Section.cs" />
+    <Compile Include="Entities\UserSubscription.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,6 +231,38 @@
     <Compile Include="Migrations\201811130800016_Item.cs" />
     <Compile Include="Migrations\201811130800016_Item.Designer.cs">
       <DependentUpon>201811130800016_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141408351_product.cs" />
+    <Compile Include="Migrations\201811141408351_product.Designer.cs">
+      <DependentUpon>201811141408351_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141417389_product-type.cs" />
+    <Compile Include="Migrations\201811141417389_product-type.Designer.cs">
+      <DependentUpon>201811141417389_product-type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141423161_product-link-text.cs" />
+    <Compile Include="Migrations\201811141423161_product-link-text.Designer.cs">
+      <DependentUpon>201811141423161_product-link-text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141434542_subs.cs" />
+    <Compile Include="Migrations\201811141434542_subs.Designer.cs">
+      <DependentUpon>201811141434542_subs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141524072_productItems.cs" />
+    <Compile Include="Migrations\201811141524072_productItems.Designer.cs">
+      <DependentUpon>201811141524072_productItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141529180_SubscriptionProduct.cs" />
+    <Compile Include="Migrations\201811141529180_SubscriptionProduct.Designer.cs">
+      <DependentUpon>201811141529180_SubscriptionProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141535003_userSubscription.cs" />
+    <Compile Include="Migrations\201811141535003_userSubscription.Designer.cs">
+      <DependentUpon>201811141535003_userSubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811141610340_final.cs" />
+    <Compile Include="Migrations\201811141610340_final.Designer.cs">
+      <DependentUpon>201811141610340_final.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -340,6 +379,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811130800016_Item.resx">
       <DependentUpon>201811130800016_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141408351_product.resx">
+      <DependentUpon>201811141408351_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141417389_product-type.resx">
+      <DependentUpon>201811141417389_product-type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141423161_product-link-text.resx">
+      <DependentUpon>201811141423161_product-link-text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141434542_subs.resx">
+      <DependentUpon>201811141434542_subs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141524072_productItems.resx">
+      <DependentUpon>201811141524072_productItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141529180_SubscriptionProduct.resx">
+      <DependentUpon>201811141529180_SubscriptionProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141535003_userSubscription.resx">
+      <DependentUpon>201811141535003_userSubscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811141610340_final.resx">
+      <DependentUpon>201811141610340_final.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
