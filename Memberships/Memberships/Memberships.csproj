@@ -277,6 +277,10 @@
     <Compile Include="Migrations\201811160937059_fixedMistake.Designer.cs">
       <DependentUpon>201811160937059_fixedMistake.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811171025381_new.cs" />
+    <Compile Include="Migrations\201811171025381_new.Designer.cs">
+      <DependentUpon>201811171025381_new.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -453,6 +457,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811160937059_fixedMistake.resx">
       <DependentUpon>201811160937059_fixedMistake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811171025381_new.resx">
+      <DependentUpon>201811171025381_new.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
